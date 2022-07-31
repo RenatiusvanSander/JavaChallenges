@@ -12,7 +12,7 @@ public class PrimeNumbers {
    * @return true / false for is a prime number
    */
   public static boolean isPrime(final int potentiallyPrime) {
-    for(int i = 2; i < potentiallyPrime / 2; i++) {
+    for(int i = 2; i <= potentiallyPrime / 2; i++) {
       if(potentiallyPrime % i == 0) {
         return false;
       }
