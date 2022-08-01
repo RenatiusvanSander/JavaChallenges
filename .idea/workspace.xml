@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5dc6072-ce96-42d9-b483-0441943a5ff8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/remad/javachallenges/mathtasks/EratosthenesSieve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/remad/javachallenge/mathtasks/EratosthenesSieveTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/remad/javachallenge/mathtasks/PrimeNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/remad/javachallenge/mathtasks/PrimeNumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PrimeNumbersTest.testIsPrime">
-    <configuration name="DigitCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EratosthenesSieveTest.testExecute">
+    <configuration name="EratosthenesSieveTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaChallenges" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +51,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.remad.javachallenge.mathtasks" />
-      <option name="MAIN_CLASS_NAME" value="edu.remad.javachallenge.mathtasks.DigitCounterTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="edu.remad.javachallenge.mathtasks.EratosthenesSieveTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EratosthenesSieveTest.testNumbersAreInitialized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.remad.javachallenge.mathtasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.remad.javachallenge.mathtasks" />
+      <option name="MAIN_CLASS_NAME" value="edu.remad.javachallenge.mathtasks.EratosthenesSieveTest" />
+      <option name="METHOD_NAME" value="testNumbersAreInitialized" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,21 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProperDivisorFinderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.remad.javachallenge.mathtasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.remad.javachallenge.mathtasks" />
-      <option name="MAIN_CLASS_NAME" value="edu.remad.javachallenge.mathtasks.ProperDivisorFinderTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProperDivisorFinderTest.testFindProperDivisors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaChallenges" />
       <extension name="coverage">
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EratosthenesSieveTest.testExecute" />
+        <item itemvalue="JUnit.EratosthenesSieveTest.testNumbersAreInitialized" />
         <item itemvalue="JUnit.PrimeNumbersTest.testIsPrime" />
         <item itemvalue="JUnit.PrimeNumbersTest" />
         <item itemvalue="JUnit.ProperDivisorFinderTest.testFindProperDivisors" />
-        <item itemvalue="JUnit.ProperDivisorFinderTest" />
-        <item itemvalue="JUnit.DigitCounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +154,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/edu/remad/javachallenge/mathtasks/PrimeNumbersTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/remad/javachallenges/mathtasks/EratosthenesSieve.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/remad/javachallenges/mathtasks/EratosthenesSieve.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
