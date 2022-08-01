@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * filter with Eratosthenes's webb
+ * Concerning the sieve of Eratosthenes
  */
 public class EratosthenesSieve {
 
