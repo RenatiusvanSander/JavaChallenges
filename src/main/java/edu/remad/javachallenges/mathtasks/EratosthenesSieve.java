@@ -9,7 +9,9 @@ import java.util.List;
  */
 public class EratosthenesSieve {
 
-  /** number to find prime numbers for */
+  /**
+   * number to find prime numbers for
+   */
   private final int number;
 
   /**
@@ -40,17 +42,18 @@ public class EratosthenesSieve {
   private void initNumbersToFilter() {
     this.numbersToFilter = new int[this.number];
 
-    for(int i = 0; i < numbersToFilter.length; i++ ) {
+    for (int i = 0; i < numbersToFilter.length; i++) {
       this.numbersToFilter[i] = i + 1;
     }
   }
 
   /**
    * Executes sieve of Eratosthenes.
+   *
    * @return prime numbers
    */
   public List<Integer> execute() {
-    if(this.primeNumbers.isEmpty()) {
+    if (this.primeNumbers.isEmpty()) {
       int[] tempNumbers = Arrays.copyOf(this.numbersToFilter, numbersToFilter.length);
       List<Integer> result = new ArrayList<>(List.of(1));
 
@@ -70,7 +73,7 @@ public class EratosthenesSieve {
       this.primeNumbers.addAll(result);
     }
 
-      return new ArrayList<>(this.primeNumbers);
+    return new ArrayList<>(this.primeNumbers);
   }
 
   /**
