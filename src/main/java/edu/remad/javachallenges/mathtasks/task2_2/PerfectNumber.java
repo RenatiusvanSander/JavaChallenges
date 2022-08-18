@@ -9,15 +9,16 @@ import java.util.List;
 public class PerfectNumber {
 
   /**
+   * Calculates perfect number.
    *
-   * @param maxEclusive
-   * @return
+   * @param maxExclusive the maximum exclusive to calculate perfect numbers for.
+   * @return perfect numbers
    */
   public static List<Integer> calcPerfectNumbers(final int maxExclusive) {
     final List<Integer> results = new ArrayList<>();
 
-    for(int i = 2; i < maxExclusive; i++) {
-      if(isPerfectNumberSimple(i)) {
+    for (int i = 2; i < maxExclusive; i++) {
+      if (isPerfectNumberSimple(i)) {
         results.add(i);
       }
     }
@@ -34,8 +35,8 @@ public class PerfectNumber {
   public static boolean isPerfectNumberSimple(final int number) {
     int sumOfMultipliers = 1;
 
-    for(int i = 2; i <= number / 2; i++) {
-      if(number % i == 0) {
+    for (int i = 2; i <= number / 2; i++) {
+      if (number % i == 0) {
         sumOfMultipliers += i;
       }
     }
