@@ -20,6 +20,6 @@ public class CheckSumTest {
 
     int actualCheckSum = CheckSum.calcChecksum(number);
 
-    assertEquals(289, actualCheckSum);
+    assertEquals(3, actualCheckSum);
   }
 }

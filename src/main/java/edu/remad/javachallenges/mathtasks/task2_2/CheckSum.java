@@ -34,7 +34,7 @@ public class CheckSum {
       int currentDigit = Integer.parseInt("" + digit);
       sum += ((i + 1) * currentDigit);
     }
-    sum = (int)(sum * 1.1);
+    sum = sum % 10;
 
     return sum;
   }
